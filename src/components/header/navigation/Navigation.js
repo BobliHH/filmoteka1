@@ -1,12 +1,14 @@
-import "./Navigation.css";
+import './Navigation.css';
 export const Navigation = () => {
   return (
     <nav className="header-navigation">
       <input type="search" />
-      <a href="#">Home</a>
-      <a href="#">My Library</a>
-      <a className="float-right" href="#">Watched</a>
-      <a href="#">Queu</a>
+      <a href="x">Home</a>
+      <a href="x">My Library</a>
+      <a className="float-right" href="x">
+        Watched
+      </a>
+      <a href="x">Queu</a>
     </nav>
   );
 };

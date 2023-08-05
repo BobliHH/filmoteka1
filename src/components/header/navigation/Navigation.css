@@ -1,0 +1,7 @@
+.header-navigation {
+  display: flex;
+  gap: 15px;
+}
+.float-right {
+  margin-left: auto;
+}

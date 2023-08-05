@@ -1,18 +1,21 @@
+import './App.css';
+import { Container } from './common/Container';
+import { Header } from './header/Header';
+import { Main } from './main/Main';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template <br />
-      first modification <br />
-      second modification
+    <div>
+      <Container>
+        <Header />
+      </Container>
+      <Container>
+        <Main />x
+      </Container>
+      <Container solidColor="#dedede">footer</Container>
+      {/* header */}
+      {/* main */}
+      {/* footer */}
     </div>
   );
 };

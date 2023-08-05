@@ -1,8 +1,8 @@
 {
-  "name": "filmoteka1",
+  "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://boblihh.github.io/filmoteka1/",
+  "homepage": "https://BobliHH.github.io/filmoteka1/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

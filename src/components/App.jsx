@@ -1,16 +1,18 @@
 import './App.css';
 import { Container } from './common/Container';
+import { Modal } from './common/Modal';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 
 export const App = () => {
   return (
     <div>
+      <Modal/>
       <Container>
         <Header />
       </Container>
       <Container>
-        <Main />x
+        <Main />
       </Container>
       <Container solidColor="#dedede">footer</Container>
       {/* header */}

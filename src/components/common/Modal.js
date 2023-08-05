@@ -6,7 +6,7 @@ export const Modal = () => {
         <div id="close-modal" className="backdrop">
           x
         </div>
-        <div id="movie-card"></div>
+        <div id="movie-card">gfdhgfdhgfd</div>
       </div>
     </div>
   );

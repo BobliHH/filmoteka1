@@ -11,9 +11,9 @@ export default class App extends Component {
     modalIsVisible: false,
     selectedMovie: false,
   };
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
   openModal(id) {
     this.setState({
       modalIsVisible: true,

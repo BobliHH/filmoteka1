@@ -53,7 +53,7 @@ export class Main extends Component {
         {this.state.hasError && <h2>Eroare la incarcare</h2>}
         {this.state.data &&
           this.state.data.results.map(film => {
-            return <Movie movie={film} />;
+            return <Movie movie={film} openModal={this.props.openModal} />;
           })}
       </main>
     );

@@ -30,7 +30,12 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        {this.state.modalIsVisible && <Modal id={this.state.selectedMovie} />}
+        {this.state.modalIsVisible && (
+          <Modal
+            closeModal={this.closeModal.bind(this)}
+            id={this.state.selectedMovie}
+          />
+        )}
         <Container>
           <Header />
         </Container>
